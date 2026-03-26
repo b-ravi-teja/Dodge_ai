@@ -1,0 +1,890 @@
+{
+  "node_types": [
+    {
+      "type": "SalesOrder",
+      "fields": [
+        "confdOrderQtyByMatlAvailCheck",
+        "confirmedDeliveryDate",
+        "createdByUser",
+        "creationDate",
+        "customerPaymentTerms",
+        "deliveryBlockReason",
+        "distributionChannel",
+        "headerBillingBlockReason",
+        "incotermsClassification",
+        "incotermsLocation1",
+        "itemBillingBlockReason",
+        "lastChangeDateTime",
+        "material",
+        "materialGroup",
+        "netAmount",
+        "orderQuantityUnit",
+        "organizationDivision",
+        "overallDeliveryStatus",
+        "overallOrdReltdBillgStatus",
+        "overallSdDocReferenceStatus",
+        "pricingDate",
+        "productionPlant",
+        "requestedDeliveryDate",
+        "requestedQuantity",
+        "requestedQuantityUnit",
+        "salesDocumentRjcnReason",
+        "salesGroup",
+        "salesOffice",
+        "salesOrderItem",
+        "salesOrderItemCategory",
+        "salesOrderType",
+        "salesOrganization",
+        "scheduleLine",
+        "soldToParty",
+        "storageLocation",
+        "totalCreditCheckStatus",
+        "totalNetAmount",
+        "transactionCurrency"
+      ],
+      "examples": {
+        "salesOrderType": [
+          "OR"
+        ],
+        "salesOrganization": [
+          "ABCD"
+        ],
+        "distributionChannel": [
+          11,
+          5
+        ],
+        "organizationDivision": [
+          99
+        ],
+        "salesGroup": [
+          ""
+        ],
+        "salesOffice": [
+          ""
+        ],
+        "soldToParty": [
+          310000108,
+          310000109,
+          320000083
+        ],
+        "creationDate": [
+          "2025-03-31T00:00:00.000Z",
+          "2025-04-02T00:00:00.000Z"
+        ],
+        "createdByUser": [
+          "USER737",
+          "USER786"
+        ],
+        "lastChangeDateTime": [
+          "2025-03-31T06:42:38.786Z",
+          "2025-03-31T06:44:15.356Z",
+          "2025-03-31T11:07:27.454Z"
+        ],
+        "totalNetAmount": [
+          17108.25,
+          19021.27,
+          883.88
+        ],
+        "overallDeliveryStatus": [
+          "A",
+          "C"
+        ],
+        "overallOrdReltdBillgStatus": [
+          ""
+        ],
+        "overallSdDocReferenceStatus": [
+          ""
+        ],
+        "transactionCurrency": [
+          "INR"
+        ],
+        "pricingDate": [
+          "2025-03-31T00:00:00.000Z",
+          "2025-04-02T00:00:00.000Z"
+        ],
+        "requestedDeliveryDate": [
+          "2025-03-31T00:00:00.000Z",
+          "2025-04-02T00:00:00.000Z"
+        ],
+        "headerBillingBlockReason": [
+          ""
+        ],
+        "deliveryBlockReason": [
+          ""
+        ],
+        "incotermsClassification": [
+          "FOR"
+        ],
+        "incotermsLocation1": [
+          "Lake David",
+          "Millerborough"
+        ],
+        "customerPaymentTerms": [
+          "Z001",
+          "Z009"
+        ],
+        "totalCreditCheckStatus": [
+          ""
+        ],
+        "salesOrderItem": [
+          10,
+          20,
+          30
+        ],
+        "salesOrderItemCategory": [
+          "TAN"
+        ],
+        "material": [
+          "S8907367000327",
+          "S8907367001003",
+          "S8907367020073"
+        ],
+        "requestedQuantity": [
+          10,
+          48,
+          8
+        ],
+        "requestedQuantityUnit": [
+          "PC"
+        ],
+        "netAmount": [
+          1181.69,
+          2366.95,
+          9966.1
+        ],
+        "materialGroup": [
+          "ZFG1001",
+          "ZPKG004"
+        ],
+        "productionPlant": [
+          "1301",
+          "1920",
+          "WB05"
+        ],
+        "storageLocation": [
+          "5095",
+          "5101",
+          "V2S2"
+        ],
+        "salesDocumentRjcnReason": [
+          "",
+          "61"
+        ],
+        "itemBillingBlockReason": [
+          ""
+        ],
+        "scheduleLine": [
+          1,
+          2
+        ],
+        "confirmedDeliveryDate": [
+          "2025-03-31T00:00:00.000Z",
+          "2025-04-02T00:00:00.000Z",
+          "2025-04-07T00:00:00.000Z"
+        ],
+        "orderQuantityUnit": [
+          "PC"
+        ],
+        "confdOrderQtyByMatlAvailCheck": [
+          10,
+          48,
+          8
+        ]
+      }
+    },
+    {
+      "type": "BillingDocument",
+      "fields": [
+        "accountingDocument",
+        "billingDocumentDate",
+        "billingDocumentIsCancelled",
+        "billingDocumentItem",
+        "billingDocumentType",
+        "billingQuantity",
+        "billingQuantityUnit",
+        "cancelledBillingDocument",
+        "companyCode",
+        "creationDate",
+        "creationTime",
+        "fiscalYear",
+        "lastChangeDateTime",
+        "material",
+        "netAmount",
+        "referenceSdDocument",
+        "referenceSdDocumentItem",
+        "soldToParty",
+        "totalNetAmount",
+        "transactionCurrency"
+      ],
+      "examples": {
+        "billingDocumentType": [
+          "F2",
+          "S1"
+        ],
+        "creationDate": [
+          "2025-04-03T00:00:00.000Z",
+          "2025-05-09T00:00:00.000Z",
+          "2025-05-16T00:00:00.000Z"
+        ],
+        "creationTime": [
+          "{\"hours\": 10, \"minutes\": 10, \"seconds\": 18}",
+          "{\"hours\": 11, \"minutes\": 31, \"seconds\": 13}",
+          "{\"hours\": 7, \"minutes\": 21, \"seconds\": 19}"
+        ],
+        "lastChangeDateTime": [
+          "2025-04-03T11:31:37.331Z",
+          "2025-05-09T07:21:26.332Z",
+          "2025-05-09T07:21:26.695Z"
+        ],
+        "billingDocumentDate": [
+          "2025-04-02T00:00:00.000Z",
+          "2025-04-30T00:00:00.000Z",
+          "2025-05-16T00:00:00.000Z"
+        ],
+        "billingDocumentIsCancelled": [
+          false,
+          true
+        ],
+        "cancelledBillingDocument": [
+          "",
+          "90678702",
+          "90678703"
+        ],
+        "totalNetAmount": [
+          216.1,
+          245.9,
+          287.9
+        ],
+        "transactionCurrency": [
+          "INR"
+        ],
+        "companyCode": [
+          "ABCD"
+        ],
+        "fiscalYear": [
+          2025
+        ],
+        "accountingDocument": [
+          9400000249,
+          9400123662,
+          9400123663
+        ],
+        "soldToParty": [
+          320000082,
+          320000083,
+          320000088
+        ],
+        "billingDocumentItem": [
+          10,
+          20,
+          30
+        ],
+        "material": [
+          "B8907367022152",
+          "B8907367032571",
+          "B8907367041603"
+        ],
+        "billingQuantity": [
+          1,
+          2
+        ],
+        "billingQuantityUnit": [
+          "PC"
+        ],
+        "netAmount": [
+          305.9,
+          382.9,
+          533.05
+        ],
+        "referenceSdDocument": [
+          80738109,
+          80754601,
+          80754606
+        ],
+        "referenceSdDocumentItem": [
+          10,
+          20,
+          30
+        ]
+      }
+    },
+    {
+      "type": "Customer",
+      "fields": [
+        "accountingClerk",
+        "accountingClerkFaxNumber",
+        "accountingClerkInternetAddress",
+        "accountingClerkPhoneNumber",
+        "alternativePayerAccount",
+        "billingIsBlockedForCustomer",
+        "businessPartner",
+        "businessPartnerCategory",
+        "businessPartnerFullName",
+        "businessPartnerGrouping",
+        "businessPartnerIsBlocked",
+        "businessPartnerName",
+        "companyCode",
+        "completeDeliveryIsDefined",
+        "correspondenceLanguage",
+        "createdByUser",
+        "creationDate",
+        "creationTime",
+        "creditControlArea",
+        "currency",
+        "customerAccountGroup",
+        "customerPaymentTerms",
+        "deletionIndicator",
+        "deliveryPriority",
+        "distributionChannel",
+        "division",
+        "exchangeRateType",
+        "firstName",
+        "formOfAddress",
+        "incotermsClassification",
+        "incotermsLocation1",
+        "industry",
+        "isMarkedForArchiving",
+        "lastChangeDate",
+        "lastName",
+        "organizationBpName1",
+        "organizationBpName2",
+        "paymentBlockingReason",
+        "paymentMethodsList",
+        "paymentTerms",
+        "reconciliationAccount",
+        "salesDistrict",
+        "salesGroup",
+        "salesOffice",
+        "salesOrganization",
+        "shippingCondition",
+        "slsUnlmtdOvrdelivIsAllwd",
+        "supplyingPlant"
+      ],
+      "examples": {
+        "businessPartner": [
+          310000108,
+          310000109,
+          320000082
+        ],
+        "businessPartnerCategory": [
+          2
+        ],
+        "businessPartnerFullName": [
+          "Bradley-Kelley",
+          "Cardenas, Parker and Avila",
+          "Nguyen-Davis"
+        ],
+        "businessPartnerGrouping": [
+          "Y101",
+          "Y102"
+        ],
+        "businessPartnerName": [
+          "Bradley-Kelley",
+          "Cardenas, Parker and Avila",
+          "Nguyen-Davis"
+        ],
+        "correspondenceLanguage": [
+          ""
+        ],
+        "createdByUser": [
+          "USER108",
+          "USER750"
+        ],
+        "creationDate": [
+          "2024-04-16T00:00:00.000Z",
+          "2024-11-20T00:00:00.000Z"
+        ],
+        "creationTime": [
+          "{\"hours\": 13, \"minutes\": 32, \"seconds\": 1}",
+          "{\"hours\": 13, \"minutes\": 32, \"seconds\": 2}",
+          "{\"hours\": 13, \"minutes\": 36, \"seconds\": 43}"
+        ],
+        "firstName": [
+          ""
+        ],
+        "formOfAddress": [
+          3
+        ],
+        "industry": [
+          ""
+        ],
+        "lastChangeDate": [
+          "2025-06-27T00:00:00.000Z",
+          "2025-09-10T00:00:00.000Z",
+          "2025-11-06T00:00:00.000Z"
+        ],
+        "lastName": [
+          ""
+        ],
+        "organizationBpName1": [
+          "Bradley-Kelley",
+          "Cardenas, Parker and Avila",
+          "Nguyen-Davis"
+        ],
+        "organizationBpName2": [
+          "",
+          "Torres-Williams"
+        ],
+        "businessPartnerIsBlocked": [
+          false,
+          true
+        ],
+        "isMarkedForArchiving": [
+          false,
+          true
+        ],
+        "companyCode": [
+          "ABCD"
+        ],
+        "accountingClerk": [
+          ""
+        ],
+        "accountingClerkFaxNumber": [
+          ""
+        ],
+        "accountingClerkInternetAddress": [
+          ""
+        ],
+        "accountingClerkPhoneNumber": [
+          ""
+        ],
+        "alternativePayerAccount": [
+          ""
+        ],
+        "paymentBlockingReason": [
+          ""
+        ],
+        "paymentMethodsList": [
+          ""
+        ],
+        "paymentTerms": [
+          "",
+          "Z001"
+        ],
+        "reconciliationAccount": [
+          15500010,
+          15500020
+        ],
+        "deletionIndicator": [
+          false,
+          true
+        ],
+        "customerAccountGroup": [
+          "Y101",
+          "Y102"
+        ],
+        "salesOrganization": [
+          "ABCD"
+        ],
+        "distributionChannel": [
+          "05",
+          "10",
+          "RB"
+        ],
+        "division": [
+          99
+        ],
+        "billingIsBlockedForCustomer": [
+          ""
+        ],
+        "completeDeliveryIsDefined": [
+          false
+        ],
+        "creditControlArea": [
+          ""
+        ],
+        "currency": [
+          "INR"
+        ],
+        "customerPaymentTerms": [
+          "Z001",
+          "Z009"
+        ],
+        "deliveryPriority": [
+          0
+        ],
+        "incotermsClassification": [
+          "",
+          "FOR"
+        ],
+        "incotermsLocation1": [
+          "Lake David",
+          "Millerborough",
+          "Wellsborough"
+        ],
+        "salesGroup": [
+          ""
+        ],
+        "salesOffice": [
+          ""
+        ],
+        "shippingCondition": [
+          "",
+          "01"
+        ],
+        "slsUnlmtdOvrdelivIsAllwd": [
+          false
+        ],
+        "supplyingPlant": [
+          ""
+        ],
+        "salesDistrict": [
+          ""
+        ],
+        "exchangeRateType": [
+          "",
+          "M"
+        ]
+      }
+    },
+    {
+      "type": "Product",
+      "fields": [
+        "availabilityCheckType",
+        "baseUnit",
+        "countryOfOrigin",
+        "createdByUser",
+        "creationDate",
+        "crossPlantStatus",
+        "division",
+        "fiscalYearVariant",
+        "grossWeight",
+        "industrySector",
+        "isMarkedForDeletion",
+        "language",
+        "lastChangeDate",
+        "lastChangeDateTime",
+        "mrpType",
+        "netWeight",
+        "plant",
+        "productDescription",
+        "productGroup",
+        "productOldId",
+        "productType",
+        "productionInvtryManagedLoc",
+        "profitCenter",
+        "regionOfOrigin",
+        "weightUnit"
+      ],
+      "examples": {
+        "language": [
+          "EN"
+        ],
+        "productDescription": [
+          "THE CHARCOAL GANG",
+          "WB-CG CHARCOAL GANG",
+          "WB-GS CHARCOAL GANG 22.2X24X6.7CM"
+        ],
+        "plant": [
+          "MP07",
+          "PB05",
+          "PB07"
+        ],
+        "countryOfOrigin": [
+          ""
+        ],
+        "regionOfOrigin": [
+          ""
+        ],
+        "productionInvtryManagedLoc": [
+          ""
+        ],
+        "availabilityCheckType": [
+          "NC"
+        ],
+        "fiscalYearVariant": [
+          ""
+        ],
+        "profitCenter": [
+          "ABC001",
+          "TWC001"
+        ],
+        "mrpType": [
+          "ND"
+        ],
+        "productType": [
+          "ZF01",
+          "ZFS1",
+          "ZPKG"
+        ],
+        "crossPlantStatus": [
+          ""
+        ],
+        "creationDate": [
+          "2024-11-26T00:00:00.000Z",
+          "2024-12-12T00:00:00.000Z"
+        ],
+        "createdByUser": [
+          "USER108"
+        ],
+        "lastChangeDate": [
+          "2025-09-16T00:00:00.000Z",
+          "2025-09-18T00:00:00.000Z",
+          "2025-09-25T00:00:00.000Z"
+        ],
+        "lastChangeDateTime": [
+          "2025-09-16T13:12:08.000Z",
+          "2025-09-18T11:51:26.000Z",
+          "2025-09-25T11:59:36.000Z"
+        ],
+        "isMarkedForDeletion": [
+          false
+        ],
+        "productOldId": [
+          "ABC-WEB-225",
+          "GS-CG",
+          "WD-BOX-CG"
+        ],
+        "grossWeight": [
+          0.012,
+          0.11
+        ],
+        "weightUnit": [
+          "KG"
+        ],
+        "netWeight": [
+          0.01,
+          0.1
+        ],
+        "productGroup": [
+          "ZFG1001",
+          "ZPKG004"
+        ],
+        "baseUnit": [
+          "PC"
+        ],
+        "division": [
+          1,
+          2
+        ],
+        "industrySector": [
+          "M"
+        ]
+      }
+    },
+    {
+      "type": "Delivery",
+      "fields": [
+        "actualDeliveryQuantity",
+        "actualGoodsMovementDate",
+        "actualGoodsMovementTime",
+        "batch",
+        "creationDate",
+        "creationTime",
+        "deliveryBlockReason",
+        "deliveryDocumentItem",
+        "deliveryQuantityUnit",
+        "hdrGeneralIncompletionStatus",
+        "headerBillingBlockReason",
+        "itemBillingBlockReason",
+        "lastChangeDate",
+        "overallGoodsMovementStatus",
+        "overallPickingStatus",
+        "overallProofOfDeliveryStatus",
+        "plant",
+        "referenceSdDocument",
+        "referenceSdDocumentItem",
+        "shippingPoint",
+        "storageLocation"
+      ],
+      "examples": {
+        "actualGoodsMovementTime": [
+          "{\"hours\": 0, \"minutes\": 0, \"seconds\": 0}",
+          "{\"hours\": 18, \"minutes\": 30, \"seconds\": 0}",
+          "{\"hours\": 9, \"minutes\": 34, \"seconds\": 46}"
+        ],
+        "creationDate": [
+          "2025-03-31T00:00:00.000Z",
+          "2025-04-02T00:00:00.000Z",
+          "2025-04-07T00:00:00.000Z"
+        ],
+        "creationTime": [
+          "{\"hours\": 11, \"minutes\": 19, \"seconds\": 3}",
+          "{\"hours\": 6, \"minutes\": 49, \"seconds\": 13}",
+          "{\"hours\": 6, \"minutes\": 49, \"seconds\": 16}"
+        ],
+        "deliveryBlockReason": [
+          ""
+        ],
+        "hdrGeneralIncompletionStatus": [
+          "C"
+        ],
+        "headerBillingBlockReason": [
+          ""
+        ],
+        "overallGoodsMovementStatus": [
+          "A",
+          "C"
+        ],
+        "overallPickingStatus": [
+          "C"
+        ],
+        "overallProofOfDeliveryStatus": [
+          ""
+        ],
+        "shippingPoint": [
+          "1920",
+          "KA05",
+          "MH05"
+        ],
+        "lastChangeDate": [
+          "2025-04-02T00:00:00.000Z",
+          "2025-05-09T00:00:00.000Z",
+          "2025-07-24T00:00:00.000Z"
+        ],
+        "actualGoodsMovementDate": [
+          "2025-04-02T00:00:00.000Z",
+          "2025-04-29T00:00:00.000Z"
+        ],
+        "actualDeliveryQuantity": [
+          1,
+          2,
+          48
+        ],
+        "batch": [
+          "",
+          "ABCD"
+        ],
+        "deliveryDocumentItem": [
+          10,
+          20,
+          30
+        ],
+        "deliveryQuantityUnit": [
+          "PC"
+        ],
+        "itemBillingBlockReason": [
+          ""
+        ],
+        "plant": [
+          "1920",
+          "KA05",
+          "WB05"
+        ],
+        "referenceSdDocument": [
+          740556,
+          740557,
+          740558
+        ],
+        "referenceSdDocumentItem": [
+          10,
+          20,
+          30
+        ],
+        "storageLocation": [
+          5031,
+          "5078",
+          "V2S2"
+        ]
+      }
+    },
+    {
+      "type": "Finance",
+      "fields": [
+        "accountingDocumentItem",
+        "accountingDocumentType",
+        "amountInCompanyCodeCurrency",
+        "amountInTransactionCurrency",
+        "assignmentReference",
+        "clearingAccountingDocument",
+        "clearingDate",
+        "clearingDocFiscalYear",
+        "companyCode",
+        "companyCodeCurrency",
+        "costCenter",
+        "customer",
+        "documentDate",
+        "financialAccountType",
+        "fiscalYear",
+        "glAccount",
+        "lastChangeDateTime",
+        "postingDate",
+        "profitCenter",
+        "referenceDocument",
+        "transactionCurrency"
+      ],
+      "examples": {
+        "companyCode": [
+          "ABCD"
+        ],
+        "fiscalYear": [
+          2025
+        ],
+        "glAccount": [
+          15500020
+        ],
+        "referenceDocument": [
+          90504219,
+          90504225,
+          90504230
+        ],
+        "costCenter": [
+          ""
+        ],
+        "profitCenter": [
+          "ABC001"
+        ],
+        "transactionCurrency": [
+          "INR"
+        ],
+        "amountInTransactionCurrency": [
+          597.0,
+          897.0,
+          897.03
+        ],
+        "companyCodeCurrency": [
+          "INR"
+        ],
+        "amountInCompanyCodeCurrency": [
+          597.0,
+          897.0,
+          897.03
+        ],
+        "postingDate": [
+          "2025-04-02T00:00:00.000Z",
+          "2025-04-30T00:00:00.000Z",
+          "2025-05-16T00:00:00.000Z"
+        ],
+        "documentDate": [
+          "2025-04-02T00:00:00.000Z",
+          "2025-04-30T00:00:00.000Z",
+          "2025-05-16T00:00:00.000Z"
+        ],
+        "accountingDocumentType": [
+          "RV"
+        ],
+        "accountingDocumentItem": [
+          1
+        ],
+        "assignmentReference": [
+          ""
+        ],
+        "lastChangeDateTime": [
+          "2025-04-03T11:32:07.000Z",
+          "2025-05-09T07:21:47.000Z",
+          "2025-07-24T11:43:59.000Z"
+        ],
+        "customer": [
+          320000082,
+          320000083
+        ],
+        "financialAccountType": [
+          "D"
+        ],
+        "clearingDate": [
+          "2025-04-02T00:00:00.000Z",
+          "2025-05-16T00:00:00.000Z"
+        ],
+        "clearingAccountingDocument": [
+          "9400635969",
+          "9400635973",
+          "9400635977"
+        ],
+        "clearingDocFiscalYear": [
+          0,
+          2025
+        ]
+      }
+    }
+  ]
+}

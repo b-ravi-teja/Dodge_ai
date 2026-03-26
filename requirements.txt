@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pandas
+networkx
+python-louvain
+google-generativeai
+sentence-transformers
+numpy
+python-dotenv
+aiofiles
